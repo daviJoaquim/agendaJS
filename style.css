@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #04919b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 40px;
+  color: #04919b;
+  text-align: center;
+  padding: 15px 30px;
+  border: 2px solid #04919b;
+  border-radius: 15px;
+  background-color: #e8f5e9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  input[type="text"] {
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="date"] {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #22ff00;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  /* Lista de tarefas */
+  #Lista-De-Tarefas {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  #Lista-De-Tarefas > div {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Botão apagar */
+  #Lista-De-Tarefas button {
+    background-color: #ff0000;
+    padding: 8px 12px;
+}  
